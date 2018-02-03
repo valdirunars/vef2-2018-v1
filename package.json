@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "eslint": "eslint *.js **/*.js"
+    "eslint": "eslint *.js **/*.js",
+    "start": "node app/app.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
@@ -11,6 +13,11 @@
     "eslint-plugin-import": "^2.8.0"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "chai": "^4.1.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "front-matter": "^2.3.0",
+    "mocha": "^5.0.0",
+    "showdown": "^1.8.6"
   }
 }
