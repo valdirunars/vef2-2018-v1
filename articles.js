@@ -1,1 +1,0 @@
-/* útfæra greina virkni */
