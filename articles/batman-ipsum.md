@@ -8,6 +8,15 @@ date: Thu Jan 18 2018 10:00:00 GMT+0000 (GMT)
 
 Theatricality and deception, powerful agents to the uninitiated. But we are initiated aren't we, Bruce? Members of the League of Shadows. And you betrayed us.
 
+<div class="code">
+```swift
+var type: String = "What"
+type.map { character in
+    return String(character)
+}
+```
+</div>
+
 You have inspired good. But you spat in the faces of Gotham's criminals. Didn't you think there might be casualties? Things always get worse before they get better.
 
 ## Anarchy

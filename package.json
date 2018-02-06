@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "eslint": "eslint *.js **/*.js",
+    "lint": "./node_modules/.bin/eslint app",
     "start": "node app/app.js",
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
+    "eslint": "^4.17.0",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0"
   },

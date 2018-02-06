@@ -1,12 +1,11 @@
 <%- include('header'); %>
 
 <div id="content">
-    <ul class="flex-grid">
+    <div class="flex-grid">
     <% for (var i = 0; i < articles.length; i++) { %>
-        <li class="column card">
-            <a href='<%= "/articles/" + articles[i].slug %>'>
-                 <img src="<%= articles[i].image %>" onerror="this.src = 'http://via.placeholder.com/1200x742'">
-            </a>
+        <a href='<%= "/articles/" + articles[i].slug %>' class="column card">
+            <img src="<%= articles[i].image %>" onerror="this.src = 'http://via.placeholder.com/1200x742'">
+
             <div class="card-container">
                 <h3>
                     <%= articles[i].title %>
@@ -15,7 +14,7 @@
                     <%= articles[i].date %>
                 </h4>
             </div>
-        </li>
+        </a>
     <% } %>
     </ul>
 </div>
